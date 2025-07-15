@@ -3,7 +3,7 @@
 
     <ShareComponent />
     <!-- <HeaderComponent /> -->
-    <img alt="App logo" src="/logo.png" height="105" />
+    <img alt="App logo" src="logo.png" height="105" />
     <!-- <ProfilePage /> -->
     <SocialMediaLinks title="@nan.jsdev" description="We build blazing-fast, beautiful websites for startups, small businesses and enterprises." />
     <!-- <FooterComponent /> -->

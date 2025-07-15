@@ -20,12 +20,12 @@
         </div>
         <h3 class="subtitle">Learn More</h3>
         <div class="link-container">
-            <LinkComponent image="/logo.png" title="New Idea or Project? Contact me 💡" url="https://web.whatsapp.com/send?phone=34999514231" />
+            <LinkComponent image="logo.png" title="New Idea or Project? Contact me 💡" url="https://web.whatsapp.com/send?phone=34999514231" />
         </div>
         <h3 class="subtitle">Portfolio Projects</h3>
         <div class="link-container">
-            <LinkComponent image="/canalvos-logo.png" title="Canal VOS" url="https://canalvos.com.br/" />
-            <LinkComponent image="/chcd-logo.png" title="Caring Hearts Christian Daycare" url="https://caringheartssf.com/" />
+            <LinkComponent image="canalvos-logo.png" title="Canal VOS" url="https://canalvos.com.br/" />
+            <LinkComponent image="chcd-logo.png" title="Caring Hearts Christian Daycare" url="https://caringheartssf.com/" />
         </div>
     </div>
 </template>
