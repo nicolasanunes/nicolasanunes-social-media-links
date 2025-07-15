@@ -7,6 +7,7 @@
 		"serve": "vue-cli-service serve --port 3000 --host 0.0.0.0",
 		"build": "vue-cli-service build",
 		"build:app": "pnpm run build:check && pnpm run build",
+		"deploy": "gh-pages -d dist",
 		"build:check": "pnpm run lint && pnpm run format:check",
 		"lint": "vue-cli-service lint",
 		"format": "prettier --write \"**/*.{js,vue,d.ts}\"",
@@ -29,18 +30,27 @@
 		"eslint": "^7.32.0",
 		"eslint-config-prettier": "^8.5.0",
 		"eslint-plugin-prettier": "^4.2.1",
-		"eslint-plugin-vue": "^8.7.1"
+		"eslint-plugin-vue": "^8.7.1",
+		"gh-pages": "^6.3.0"
 	},
 	"eslintConfig": {
 		"root": true,
 		"env": {
 			"node": true
 		},
-		"extends": ["plugin:vue/vue3-essential", "eslint:recommended"],
+		"extends": [
+			"plugin:vue/vue3-essential",
+			"eslint:recommended"
+		],
 		"parserOptions": {
 			"parser": "@babel/eslint-parser"
 		},
 		"rules": {}
 	},
-	"browserslist": ["> 1%", "last 2 versions", "not dead", "not ie 11"]
+	"browserslist": [
+		"> 1%",
+		"last 2 versions",
+		"not dead",
+		"not ie 11"
+	]
 }
