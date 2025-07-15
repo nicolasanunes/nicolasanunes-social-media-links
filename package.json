@@ -1,6 +1,6 @@
 {
 	"packageManager": "pnpm",
-	"name": "social-media-links-page",
+	"name": "social-media-links",
 	"version": "0.1.0",
 	"private": true,
 	"scripts": {
