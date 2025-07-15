@@ -83,7 +83,7 @@ export default {
             waShare: 'https://web.whatsapp.com/send?text=Check+out+this+Link%21+-+https://nicolasanunes.github.io/social-media-links/',
             msnShare: 'https://www.messenger.com/new',
             emShare: 'mailto:?subject=Hey%20check%20this%20out&body=https://nicolasanunes.github.io/social-media-links/',
-            copyShare: 'channels.hr-webdev.com'
+            copyShare: 'https://nicolasanunes.github.io/social-media-links/'
         };
     },
     methods: {
